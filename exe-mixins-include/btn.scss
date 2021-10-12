@@ -1,0 +1,24 @@
+
+@mixin button-design($bgColor, $width) {
+    width: $width;
+    height: 30px;
+    font-size: 32px;
+    padding: 5px;
+    color: black;
+    border: 2px solid black;
+    background-color: $bgColor;
+}
+
+.btn-primary{
+  @include button-design(pink, 150px); 
+}
+.btn-secondary{
+    @include button-design(red, 100px);  
+}
+.btn-success{
+    @include button-design(yellow, 170px);  
+}
+.btn-danger{
+    @include button-design(black, 200px);  
+}
+

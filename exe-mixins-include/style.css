@@ -1,0 +1,41 @@
+.btn-primary {
+  width: 150px;
+  height: 30px;
+  font-size: 32px;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  background-color: pink;
+}
+
+.btn-secondary {
+  width: 100px;
+  height: 30px;
+  font-size: 32px;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  background-color: red;
+}
+
+.btn-success {
+  width: 170px;
+  height: 30px;
+  font-size: 32px;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  background-color: yellow;
+}
+
+.btn-danger {
+  width: 200px;
+  height: 30px;
+  font-size: 32px;
+  padding: 5px;
+  color: black;
+  border: 2px solid black;
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
